@@ -28,8 +28,12 @@ export const metadata: Metadata = {
     title: "VPSPro - Virtual Private Server Hosting",
     description: "High-performance VPS hosting solutions with 99.9% uptime guarantee. Perfect for developers and businesses.",
   },
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({

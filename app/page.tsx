@@ -17,9 +17,9 @@ export default function Home() {
   useEffect(() => {
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
+      anchor.addEventListener('click', (e) => {
         e.preventDefault();
-        const targetId = this.getAttribute('href');
+        const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href');
         if (targetId && targetId !== '#') {
           const targetElement = document.querySelector(targetId);
           if (targetElement) {
