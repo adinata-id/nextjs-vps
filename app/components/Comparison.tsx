@@ -8,7 +8,7 @@ export default function Comparison() {
     { name: "Uptime Guarantee", vpspro: "99.9%", competitorA: "99.5%", competitorB: "99%" },
     { name: "Backup Otomatis", vpspro: "Ya (Harian/Mingguan)", competitorA: "Opsional (Berbayar)", competitorB: "Tidak" },
     { name: "DDoS Protection", vpspro: "Ya (Semua Paket)", competitorA: "Paket Enterprise", competitorB: "Tidak" },
-    { name: "SSL Certificate", vpspro: "Gratis (Paket Pro+)", competitorA: "Berbayar", competitorA: "Berbayar" },
+    { name: "SSL Certificate", vpspro: "Gratis (Paket Pro+)", competitorA: "Berbayar", competitorB: "Berbayar" },
     { name: "Support 24/7", vpspro: "Ya (Semua Paket)", competitorA: "Paket Business+", competitorB: "Paket Enterprise" },
     { name: "Control Panel", vpspro: "Gratis Dashboard", competitorA: "Berbayar", competitorB: "Berbayar" },
     { name: "Setup Time", vpspro: "Instan", competitorA: "1-24 Jam", competitorB: "6-24 Jam" },
